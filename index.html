@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TU CASA - Portfolio React Native</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body class="bg-gray-100">
+    <!-- Hero Section -->
+
+    <header class="bg-gradient-to-r from-orange-500 to-red-600 text-white py-20">
+        <div class="container mx-auto px-4">
+            <div class="text-center">
+                <h1 class="text-5xl font-bold mb-4">TU CASA</h1>
+                <p class="text-xl mb-8">Aplicación móvil para restaurantes</p>
+                <div class="flex flex-wrap justify-center gap-4">
+                    <span class="bg-white text-orange-500 px-4 py-2 rounded-full">React Native 0.77.0</span>
+                    <span class="bg-white text-orange-500 px-4 py-2 rounded-full">TypeScript 5.0.4</span>
+                    <span class="bg-white text-orange-500 px-4 py-2 rounded-full">.NET Core 6</span>
+                    <span class="bg-white text-orange-500 px-4 py-2 rounded-full">SQL Server</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Screenshots Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Capturas de Pantalla</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                    <img src="19129283-c875-4651-ac67-4d5eb9385c04.JPG" alt="Home Screen" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold mb-2">Pantalla Principal</h3>
+                        <p class="text-gray-600">Interfaz intuitiva con listado de restaurantes</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                    <img src="a8d25472-0f68-4524-a9ae-e5a22e85373e.JPG" alt="Menu Screen" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold mb-2">Menú</h3>
+                        <p class="text-gray-600">Catálogo de platillos con descripciones detalladas</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                    <img src="f41677c7-7290-4880-b743-4c85a9d91ee4.JPG" alt="Cart Screen" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold mb-2">Carrito</h3>
+                        <p class="text-gray-600">Gestión de pedidos en tiempo real</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                    <img src="f91999e8-54a0-479a-b4f1-cdcbb2a19b30.JPG" alt="Profile Screen" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold mb-2">Perfil</h3>
+                        <p class="text-gray-600">Gestión de cuenta y preferencias</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                    <img src="a2304d7d-afec-4a23-a58e-bf668fd0e0b3.JPG" alt="Order Screen" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold mb-2">Pedidos</h3>
+                        <p class="text-gray-600">Seguimiento de pedidos en tiempo real</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                    <img src="d56f4ea0-bb48-4adc-9166-aead74005efc.JPG" alt="Settings Screen" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold mb-2">Configuración</h3>
+                        <p class="text-gray-600">Personalización de la aplicación</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Características Principales</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="text-orange-500 text-3xl mb-4">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Diseño Responsivo</h3>
+                    <p class="text-gray-600">Adaptable a todos los tamaños de pantalla</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="text-orange-500 text-3xl mb-4">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Carrito de Compras</h3>
+                    <p class="text-gray-600">Actualización en tiempo real</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="text-orange-500 text-3xl mb-4">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Búsqueda Avanzada</h3>
+                    <p class="text-gray-600">Filtrado por tipo de cocina</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="text-orange-500 text-3xl mb-4">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Autenticación</h3>
+                    <p class="text-gray-600">Login social y tradicional</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="text-orange-500 text-3xl mb-4">
+                        <i class="fas fa-credit-card"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Pagos Seguros</h3>
+                    <p class="text-gray-600">Múltiples métodos de pago</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="text-orange-500 text-3xl mb-4">
+                        <i class="fas fa-bell"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Notificaciones</h3>
+                    <p class="text-gray-600">Actualizaciones de pedidos</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Stack Tecnológico</h2>
+
+            <!-- Frontend Mobile -->
+            <div class="mb-12">
+                <h3 class="text-2xl font-semibold mb-6 text-center">Frontend Mobile</h3>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                    <div class="text-center">
+                        <i class="fab fa-react text-5xl text-blue-500 mb-4"></i>
+                        <p class="font-semibold">React Native</p>
+                        <p class="text-sm text-gray-600">v0.77.0</p>
+                    </div>
+                    <div class="text-center">
+                        <i class="fab fa-js text-5xl text-yellow-500 mb-4"></i>
+                        <p class="font-semibold">TypeScript</p>
+                        <p class="text-sm text-gray-600">v5.0.4</p>
+                    </div>
+                    <div class="text-center">
+                        <i class="fas fa-database text-5xl text-green-500 mb-4"></i>
+                        <p class="font-semibold">TanStack Query</p>
+                        <p class="text-sm text-gray-600">v5.65.1</p>
+                    </div>
+                    <div class="text-center">
+                        <i class="fas fa-mobile-alt text-5xl text-purple-500 mb-4"></i>
+                        <p class="font-semibold">React Navigation</p>
+                        <p class="text-sm text-gray-600">v7.x</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Backend -->
+            <div class="mb-12">
+                <h3 class="text-2xl font-semibold mb-6 text-center">Backend</h3>
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-8">
+                    <div class="text-center">
+                        <i class="fab fa-microsoft text-5xl text-blue-600 mb-4"></i>
+                        <p class="font-semibold">.NET Core 6</p>
+                    </div>
+                    <div class="text-center">
+                        <i class="fas fa-database text-5xl text-blue-800 mb-4"></i>
+                        <p class="font-semibold">SQL Server</p>
+                    </div>
+                    <div class="text-center">
+                        <i class="fas fa-server text-5xl text-green-600 mb-4"></i>
+                        <p class="font-semibold">API REST</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Features & Tools -->
+            <div>
+                <h3 class="text-2xl font-semibold mb-6 text-center">Características y Herramientas</h3>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                    <div class="text-center">
+                        <i class="fas fa-credit-card text-5xl text-blue-500 mb-4"></i>
+                        <p class="font-semibold">Stripe</p>
+                    </div>
+                    <div class="text-center">
+                        <i class="fas fa-map-marker-alt text-5xl text-red-500 mb-4"></i>
+                        <p class="font-semibold">Geolocation</p>
+                    </div>
+                    <div class="text-center">
+                        <i class="fas fa-camera text-5xl text-purple-500 mb-4"></i>
+                        <p class="font-semibold">Camera Roll</p>
+                    </div>
+                    <div class="text-center">
+                        <i class="fas fa-code-branch text-5xl text-gray-500 mb-4"></i>
+                        <p class="font-semibold">Git</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-16 bg-gradient-to-r from-orange-500 to-red-600 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-8">¿Interesado en el Proyecto?</h2>
+            <p class="text-xl mb-8">Contáctame para más información sobre el desarrollo de aplicaciones móviles</p>
+            <a href="mailto:tu@email.com" class="bg-white text-orange-500 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors duration-300">
+                Contactar
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2024 TU CASA. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
